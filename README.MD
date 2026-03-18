@@ -3,6 +3,7 @@
 
 ***WasmPulse*** is an open-source WebAssembly (Wasm) monitoring tool, created to fill in the gaps in monitoring Server-side Wasm services. It monitors for a PID running a Wasm runtime, then starts tracking it’s resource (CPU, Memory) usage from the OS’s perspective. It exposes an API with these metrics in a Prometheus-compatible format.
 Written in Golang, the WasmPulse tool also features testing scripts for running sample Wasm services, and a Docker compose to facilitate bringing up WasmPulse, Prometheus and Grafana, all pre-configured with 1 command.
+![wasmpulse_architecture](./docs/WasmPulse_Architecture.png)
 
 
 ## TL;DR
